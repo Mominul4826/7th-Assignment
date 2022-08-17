@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background-image: url(../images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+header::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+}
+.navbar-brand img{
+  width: 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffff;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+header h3{
+
+color: #fff;
+
+text-align: center;
+}
+header span{
+
+display: block;
+
+height: 3px;
+
+width: 50px;
+
+background-color: red;
+
+margin: auto;
+}
+header h1{
+
+color: #fff;
+
+text-align: center;
+
+font-size: 70px;
+}
+.btn-learn{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  background: red;
+  border-radius: 30px;
+  padding: 0;
+  padding: 10px 30px;
+}
+.height{
+  min-height: 90vh;
+  align-items: center;
+}
+.codetation{
+background-color: #f5f5f5;
+padding: 50px 0;
+
+}
+.code img{
+  width: 100px;
+
+}
+.codetation h4{
+
+}
+.codetation p{
+
+}
+.events{
+
+padding: 70px 0px;
+}
+.heading{
+
+}
+.heading h1{
+
+text-align: center;
+}
+.heading span{
+
+display: block;
+
+height: 3px;
+
+width: 63px;
+
+background-color: red;
+
+margin: auto;
+
+margin-bottom: 55px;
+}
+.event-content{
+
+  text-align: center;
+}
+.event-content img{
+  
+box-shadow: 15px 11px 1px #d3c5c5;
+}
+.event-content h3{
+
+text-align: center;
+
+margin: 20px 0;
+}
+.event-content p{
+  
+text-align: center;
+  
+font-size: 20px;
+}
+.explor{
+background-image: url(../images/section-bg-img.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+z-index: 0;
+min-height: 80vh;
+text-align: center;
+}
+.explor::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+}
+.Mominul-islam{
+
+}
+.Mominul-islam h1{
+
+color: #ffff;
+}
+.Mominul-islam span{
+
+height: 3px;
+
+width: 50px;
+
+background-color: red;
+
+display: block;
+
+margin-left: 124px;
+
+margin-bottom: 20px;
+}
+.Mominul-islam p{
+
+color: #fff;
+
+font-size: 17px;
+}
+.height-two{
+  min-height: 80vh;
+  align-items: center;
+}
+.snow{
+margin: 50px 0px;
+}
+.jasmin-1st{
+
+}
+.jasmin-1st h1{
+
+}
+.jasmin-1st span{
+  
+display: block;
+  
+height: 3px;
+  
+width: 50px;
+  
+background-color: red;
+  
+margin-bottom: 20px;
+}
+.jasmin-1st p{
+  
+font-size: 17px;
+}
+.fist-img{
+margin-bottom: 20px;
+}
+.scend-img{
+
+}
+.End{
+background-color: #191919;
+padding: 50px 0;
+}
+.anita-2nd{
+
+}
+.anita-2nd h4{
+
+color: #ffff;
+
+text-align: center;
+}
+.anita-2nd p{
+
+color: #fff;
+
+text-align: center;
+
+margin-top: 22px;
+
+font-size: 17px;
+}
